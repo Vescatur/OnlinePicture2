@@ -27,7 +27,7 @@ namespace OnlinePicture
             InitializeComponent();
             canvasRender = new CanvasRender();
             canvasRender.myCanvas = myCanvas;
-            canvasRender.xSize = 50;
+            canvasRender.xSize = 49;
             canvasRender.ySize = 26;
             canvasRender.Initialize();
         }

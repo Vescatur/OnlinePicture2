@@ -42,7 +42,7 @@ namespace OnlinePicture
         public void CreatePixel(int x, int y, Color color)
         {
             Rectangle rec = new Rectangle();
-            Canvas.SetTop(rec, y * 10);
+            Canvas.SetTop(rec, y *10);
             Canvas.SetLeft(rec, x * 10);
             rec.Width = 10;
             rec.Height = 10;
